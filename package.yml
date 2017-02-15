@@ -1,0 +1,20 @@
+name       : nautilus-admin
+version    : 0.2.4
+release    : 1
+source     :
+    - https://github.com/brunonova/nautilus-admin/archive/v0.2.4.tar.gz : dd6470372b8b66237ee17332e4d1420e6baa128ba7ca910d9b94fba0ca26ac30
+license    : GPL-3.0
+component  : desktop.gnome
+summary    : Extension for Nautilus to do administrative operations
+description: |
+    Extension for Nautilus to do administrative operations
+builddeps  :
+    - pkgconfig(libnautilus-extension)
+rundeps    :
+    - nautilus-python
+setup      : |
+    %cmake . -DCMAKE_INSTALL_PREFIX=/usr
+build      : |
+    %make
+install    : |
+    %make_install

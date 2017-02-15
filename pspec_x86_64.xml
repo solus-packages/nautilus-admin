@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>nautilus-admin</Name>
+        <Packager>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>desktop.gnome</PartOf>
+        <Summary xml:lang="en">Extension for Nautilus to do administrative operations</Summary>
+        <Description xml:lang="en">Extension for Nautilus to do administrative operations
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nautilus-admin</Name>
+        <Summary xml:lang="en">Extension for Nautilus to do administrative operations</Summary>
+        <Description xml:lang="en">Extension for Nautilus to do administrative operations
+</Description>
+        <PartOf>desktop.gnome</PartOf>
+        <Files>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/nautilus-python/extensions/nautilus-admin.py</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/org.freedesktop.nautilus-admin.policy</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-02-15</Date>
+            <Version>0.2.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
+        </Update>
+    </History>
+</PISI>
