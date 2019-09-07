@@ -1,8 +1,8 @@
 name       : nautilus-admin
-version    : 1.1.1
-release    : 2
+version    : 1.1.9
+release    : 3
 source     :
-    - https://github.com/brunonova/nautilus-admin/archive/v1.1.1.tar.gz : 60765e6402c4193c5bc419e3900887452ca5c61bac69ab530fc0c7068c022d27
+    - https://github.com/brunonova/nautilus-admin/archive/v1.1.9.tar.gz : 12a36d1298fbe4065e0dba8f1a48312950fe116a503a4c44a7547d0fb322bc1a
 license    : GPL-3.0
 component  : desktop.gnome
 summary    : Extension for Nautilus to do administrative operations

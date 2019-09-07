@@ -3,14 +3,14 @@
         <Name>nautilus-admin</Name>
         <Packager>
             <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Email>justin.zobel@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop.gnome</PartOf>
         <Summary xml:lang="en">Extension for Nautilus to do administrative operations</Summary>
         <Description xml:lang="en">Extension for Nautilus to do administrative operations
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>nautilus-admin</Name>
@@ -19,17 +19,30 @@
 </Description>
         <PartOf>desktop.gnome</PartOf>
         <Files>
-            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/be/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/nautilus-admin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/nautilus-admin.mo</Path>
             <Path fileType="data">/usr/share/nautilus-python/extensions/nautilus-admin.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-10-25</Date>
-            <Version>1.1.1</Version>
+        <Update release="3">
+            <Date>2019-09-07</Date>
+            <Version>1.1.9</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Email>justin.zobel@gmail.com</Email>
         </Update>
     </History>
 </PISI>
